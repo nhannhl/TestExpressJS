@@ -1,0 +1,12 @@
+1. express-validation + joi + Validate data from client of CRUD. + validate in Model
+2. express middleware + error handler. Use next to handle error.
+3. Refact error in controller
+4. Req.query
+
+-------
+5. Tạo một model tên là Group: _id, name: string(255), lastMessage: ObjectId, author: ObjectId, members: Array of objectId, deletedAt: Date().
+Note: author là một _id ở trong bảng user. (Validation)
+* Tìm hiểu population in mongoose: Xử lý khoá ngoại, giao tiếp giủa 2 bảng.
+6. CRUD + Validate Joi + validate model for group APIs.
+
+Trước 12:00 AM thứ năm tuần này.
